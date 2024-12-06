@@ -109,7 +109,7 @@
     <link href="/posts/7/"/>
     <url>/posts/7/</url>
     
-    <content type="html"><![CDATA[<h1id="cmake成功编译但make出现no-such-file-or-directory">CMake成功编译但Make出现Nosuch file or directory</h1><h2 id="问题">问题</h2><p><em>CMakeLists.txt</em>的<em>include_directories()</em>中路径没<strong>用双引号引起来</strong></p><figure><img src="7\1.png" alt="1" /><figcaption aria-hidden="true">1</figcaption></figure><h2 id="解决方案">解决方案</h2><p>改为:</p><figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs makefile"><span class="hljs-section">include_directories(&quot;C:/Program Files (x86)/Eigen3/include&quot;)</span><br></code></pre></td></tr></table></figure><figure><img src="7\2.png" alt="2" /><figcaption aria-hidden="true">2</figcaption></figure>]]></content>
+    <content type="html"><![CDATA[<h1id="cmake成功编译但make出现no-such-file-or-directory">CMake成功编译但Make出现Nosuch file or directory</h1><h2 id="问题">问题</h2><p><em>CMakeLists.txt</em>的<em>include_directories()</em>中路径没<strong>用双引号引起来</strong></p><img src="/posts/7/1.png" class="" width="1"><h2 id="解决方案">解决方案</h2><p>改为:</p><figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs makefile"><span class="hljs-section">include_directories(&quot;C:/Program Files (x86)/Eigen3/include&quot;)</span><br></code></pre></td></tr></table></figure><img src="/posts/7/2.png" class="" width="2">]]></content>
     
     
     
