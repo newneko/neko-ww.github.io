@@ -208,27 +208,6 @@
   
   
   <entry>
-    <title>网站、书籍和文档</title>
-    <link href="/posts/3/"/>
-    <url>/posts/3/</url>
-    
-    <content type="html"><![CDATA[<h1 id="网站书籍和文档">网站、书籍和文档</h1><h2 id="网站">网站</h2><h3 id="visualgo">VisuAlgo</h3><p>site: <a href="https://visualgo.net/zh">通过动画可视化数据结构和算法- VisuAlgo</a></p><p>(捡到宝了)</p><h3 id="oi-wiki">OI Wiki</h3><p>site: <a href="https://oi-wiki.org/">OI Wiki - OI Wiki(oi-wiki.org)</a></p><h3 id="learnopengl">LearnOpenGL</h3><p>site: <a href="https://learnopengl-cn.github.io/">主页 - LearnOpenGLCN (learnopengl-cn.github.io)</a></p><h3 id="阮一峰计算机是如何启动的">阮一峰：计算机是如何启动的</h3><p>site: <ahref="https://www.ruanyifeng.com/blog/2013/02/booting.html">计算机是如何启动的？- 阮一峰的网络日志 (ruanyifeng.com)</a></p><h3id="阮一峰为什么主引导记录的内存地址是-0x7c00">阮一峰：为什么主引导记录的内存地址是0x7C00</h3><p>site: <ahref="https://www.ruanyifeng.com/blog/2015/09/0x7c00.html">为什么主引导记录的内存地址是0x7C00？ - 阮一峰的网络日志 (ruanyifeng.com)</a></p><h3 id="阮一峰如何选择开源许可证">阮一峰：如何选择开源许可证</h3><p>site: <ahref="https://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html">如何选择开源许可证？- 阮一峰的网络日志 (ruanyifeng.com)</a></p><h3 id="动手学深度学习-v2">动手学深度学习 v2</h3><p>site: <a href="https://zh-v2.d2l.ai/index.html#">《动手学深度学习》 —动手学深度学习 2.0.0 documentation (d2l.ai)</a></p><h3 id="pytorch-下载">pytorch 下载</h3><p>site: <ahref="https://download.pytorch.org/whl/torch_stable.html">download.pytorch.org/whl/torch_stable.html</a></p><h2 id="书籍">书籍</h2><h3 id="cpp-game-engine-book">cpp-game-engine-book</h3><p>site: <ahref="http://www.thisisgame.com.cn/tutorial?book=cpp-game-engine-book&amp;lang=zh&amp;md=Introduction.md">Introduction| 游戏引擎 浅入浅出 | 游戏人生</a></p><p>repo: <ahref="https://github.com/ThisisGame/cpp-game-engine-book">ThisisGame/cpp-game-engine-book:从零编写游戏引擎教程 Writing a game engine tutorial from scratch(github.com)</a></p><h2 id="教程">教程</h2><h3 id="阮一峰-typescript-入门教程">阮一峰 Typescript 入门教程</h3><p>site: <a href="https://wangdoc.com/typescript/">TypeScript 教程 -网道 (wangdoc.com)</a></p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>OpenGL</tag>
-      
-      <tag>Cpp</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>如何在win11终端中同时运行两条命令</title>
     <link href="/posts/2/"/>
     <url>/posts/2/</url>
