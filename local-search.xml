@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>error：package Manifest does not exist</title>
+    <link href="/posts/13/"/>
+    <url>/posts/13/</url>
+    
+    <content type="html"><![CDATA[<h1 id="errorpackage-manifest-does-not-exist">error：package Manifestdoes not exist</h1><p>error: package Manifest does not exist</p><p>解决：导入这个包</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">import</span> android.Manifest;<br></code></pre></td></tr></table></figure><h2 id="preference">Preference</h2><blockquote><p><ahref="https://stackoverflow.com/questions/66692017/android-manifest-is-not-recognized-in-activity">androidmanifest is not recognized in activity - Stack Overflow</a></p></blockquote>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Android</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>本地部署 hexo 博客到云端</title>
     <link href="/posts/12/"/>
     <url>/posts/12/</url>
