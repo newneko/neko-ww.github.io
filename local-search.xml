@@ -4,19 +4,6 @@
   
   
   <entry>
-    <title></title>
-    <link href="/posts/13/"/>
-    <url>/posts/13/</url>
-    
-    <content type="html"><![CDATA[<p>error: package Manifest does not exist</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">import</span> android.Manifest;<br></code></pre></td></tr></table></figure><blockquote><p><ahref="https://stackoverflow.com/questions/66692017/android-manifest-is-not-recognized-in-activity">androidmanifest is not recognized in activity - Stack Overflow</a></p></blockquote>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>本地部署 hexo 博客到云端</title>
     <link href="/posts/12/"/>
     <url>/posts/12/</url>
