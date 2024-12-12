@@ -4,6 +4,29 @@
   
   
   <entry>
+    <title>用 CMake 构建 Win32 应用</title>
+    <link href="/posts/14/"/>
+    <url>/posts/14/</url>
+    
+    <content type="html"><![CDATA[<h1 id="用-cmake-构建-win32-应用">用 CMake 构建 Win32 应用</h1><p>需要在 CMakeLists.txt 中加入</p><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cmake"><span class="hljs-keyword">set_target_properties</span>(cpp PROPERTIES WIN32_EXECUTABLE <span class="hljs-keyword">TRUE</span>)<br></code></pre></td></tr></table></figure><p>一份完整的 CMakeLists.txt</p><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs cmake"><span class="hljs-keyword">cmake_minimum_required</span>(VERSION <span class="hljs-number">3.10</span>.<span class="hljs-number">0</span>)<br><span class="hljs-keyword">project</span>(cpp)<br><br><span class="hljs-keyword">set</span>(CMAKE_CXX_STANDARD <span class="hljs-number">20</span>)<br><span class="hljs-keyword">add_executable</span>(cpp main.cpp)<br><span class="hljs-keyword">set_target_properties</span>(cpp PROPERTIES WIN32_EXECUTABLE <span class="hljs-keyword">TRUE</span>)<br><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>C++</tag>
+      
+      <tag>CMake</tag>
+      
+      <tag>Windows</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>error：package Manifest does not exist</title>
     <link href="/posts/13/"/>
     <url>/posts/13/</url>
@@ -134,13 +157,13 @@
     
     <tags>
       
-      <tag>C</tag>
-      
       <tag>C++</tag>
       
-      <tag>GNU Make</tag>
-      
       <tag>CMake</tag>
+      
+      <tag>C</tag>
+      
+      <tag>GNU Make</tag>
       
     </tags>
     

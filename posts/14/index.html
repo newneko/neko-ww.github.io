@@ -19,22 +19,24 @@
   <meta name="author" content="nekoside">
   <meta name="keywords" content="">
   
-    <meta name="description" content="error：package Manifest does not exist error: package Manifest does not exist 解决：导入这个包 1import android.Manifest; Preference  android manifest is not recognized in activity - Stack Overflow">
+    <meta name="description" content="用 CMake 构建 Win32 应用 需要在 CMakeLists.txt 中加入 1set_target_properties(cpp PROPERTIES WIN32_EXECUTABLE TRUE) 一份完整的 CMakeLists.txt 1234567cmake_minimum_required(VERSION 3.10.0)project(cpp)set(CMAKE_CXX_">
 <meta property="og:type" content="article">
-<meta property="og:title" content="error：package Manifest does not exist">
-<meta property="og:url" content="https://nekoside.com/posts/13/index.html">
+<meta property="og:title" content="用 CMake 构建 Win32 应用">
+<meta property="og:url" content="https://nekoside.com/posts/14/index.html">
 <meta property="og:site_name" content="nekoside">
-<meta property="og:description" content="error：package Manifest does not exist error: package Manifest does not exist 解决：导入这个包 1import android.Manifest; Preference  android manifest is not recognized in activity - Stack Overflow">
+<meta property="og:description" content="用 CMake 构建 Win32 应用 需要在 CMakeLists.txt 中加入 1set_target_properties(cpp PROPERTIES WIN32_EXECUTABLE TRUE) 一份完整的 CMakeLists.txt 1234567cmake_minimum_required(VERSION 3.10.0)project(cpp)set(CMAKE_CXX_">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-12-06T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-12-11T07:14:23.234Z">
+<meta property="article:published_time" content="2024-12-11T16:00:00.000Z">
+<meta property="article:modified_time" content="2024-12-12T12:48:02.849Z">
 <meta property="article:author" content="nekoside">
-<meta property="article:tag" content="Android">
+<meta property="article:tag" content="C++">
+<meta property="article:tag" content="CMake">
+<meta property="article:tag" content="Windows">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>error：package Manifest does not exist - nekoside</title>
+  <title>用 CMake 构建 Win32 应用 - nekoside</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -217,7 +219,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="error：package Manifest does not exist"></span>
+            <span id="subtitle" data-typed-text="用 CMake 构建 Win32 应用"></span>
           
         </div>
 
@@ -228,8 +230,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-12-07 00:00" pubdate>
-          2024年12月7日 凌晨
+        <time datetime="2024-12-12 00:00" pubdate>
+          2024年12月12日 凌晨
         </time>
       </span>
     
@@ -240,7 +242,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          14 字
+          33 字
         
       </span>
     
@@ -297,12 +299,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">error：package Manifest does not exist</h1>
+            <h1 id="seo-header">用 CMake 构建 Win32 应用</h1>
             
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2024-12-11T15:14:23+08:00
+                    本文最后更新于 2024-12-12T20:48:02+08:00
                   
                   
 
@@ -312,17 +314,11 @@
             
               <div class="markdown-body">
                 
-                <h1 id="errorpackage-manifest-does-not-exist">error：package Manifest
-does not exist</h1>
-<p>error: package Manifest does not exist</p>
-<p>解决：导入这个包</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">import</span> android.Manifest;<br></code></pre></td></tr></table></figure>
-<h2 id="preference">Preference</h2>
-<blockquote>
-<p><a
-target="_blank" rel="noopener" href="https://stackoverflow.com/questions/66692017/android-manifest-is-not-recognized-in-activity">android
-manifest is not recognized in activity - Stack Overflow</a></p>
-</blockquote>
+                <h1 id="用-cmake-构建-win32-应用">用 CMake 构建 Win32 应用</h1>
+<p>需要在 CMakeLists.txt 中加入</p>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cmake"><span class="hljs-keyword">set_target_properties</span>(cpp PROPERTIES WIN32_EXECUTABLE <span class="hljs-keyword">TRUE</span>)<br></code></pre></td></tr></table></figure>
+<p>一份完整的 CMakeLists.txt</p>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs cmake"><span class="hljs-keyword">cmake_minimum_required</span>(VERSION <span class="hljs-number">3.10</span>.<span class="hljs-number">0</span>)<br><span class="hljs-keyword">project</span>(cpp)<br><br><span class="hljs-keyword">set</span>(CMAKE_CXX_STANDARD <span class="hljs-number">20</span>)<br><span class="hljs-keyword">add_executable</span>(cpp main.cpp)<br><span class="hljs-keyword">set_target_properties</span>(cpp PROPERTIES WIN32_EXECUTABLE <span class="hljs-keyword">TRUE</span>)<br><br></code></pre></td></tr></table></figure>
 
                 
               </div>
@@ -335,7 +331,11 @@ manifest is not recognized in activity - Stack Overflow</a></p>
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/Android/" class="print-no-link">#Android</a>
+        <a href="/tags/C/" class="print-no-link">#C++</a>
+      
+        <a href="/tags/CMake/" class="print-no-link">#CMake</a>
+      
+        <a href="/tags/Windows/" class="print-no-link">#Windows</a>
       
     </div>
   
@@ -347,8 +347,8 @@ manifest is not recognized in activity - Stack Overflow</a></p>
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>error：package Manifest does not exist</div>
-      <div>https://nekoside.com/posts/13/</div>
+      <div>用 CMake 构建 Win32 应用</div>
+      <div>https://nekoside.com/posts/14/</div>
     </div>
     <div class="license-meta">
       
@@ -360,7 +360,7 @@ manifest is not recognized in activity - Stack Overflow</a></p>
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年12月7日</div>
+          <div>2024年12月12日</div>
         </div>
       
       
@@ -371,19 +371,13 @@ manifest is not recognized in activity - Stack Overflow</a></p>
             
               
               
-                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">
                   <span class="hint--top hint--rounded" aria-label="BY - 署名">
                     <i class="iconfont icon-cc-by"></i>
                   </span>
                 </a>
               
-                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-                  <span class="hint--top hint--rounded" aria-label="NC - 非商业性使用">
-                    <i class="iconfont icon-cc-nc"></i>
-                  </span>
-                </a>
-              
-                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">
                   <span class="hint--top hint--rounded" aria-label="SA - 相同方式共享">
                     <i class="iconfont icon-cc-sa"></i>
                   </span>
@@ -404,18 +398,12 @@ manifest is not recognized in activity - Stack Overflow</a></p>
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/posts/14/" title="用 CMake 构建 Win32 应用">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">用 CMake 构建 Win32 应用</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/posts/12/" title="本地部署 hexo 博客到云端">
-                        <span class="hidden-mobile">本地部署 hexo 博客到云端</span>
+                      <a href="/posts/13/" title="error：package Manifest does not exist">
+                        <span class="hidden-mobile">error：package Manifest does not exist</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
