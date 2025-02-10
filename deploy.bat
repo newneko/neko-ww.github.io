@@ -1,0 +1,1 @@
+cmd /k "D: cd neko-side && npx hexo clean && npx hexo d"

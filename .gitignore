@@ -1,0 +1,11 @@
+# npm package.json and package-lock.json should be committed
+public
+node_modules
+_config.yml
+_config.fluid.yml
+desktop.ini
+*/desktop.ini
+*/*/desktop.ini
+.deploy_git
+_config.landscape.yml
+db.json
